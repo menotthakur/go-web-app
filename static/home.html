@@ -2,104 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Munish Thakur's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        section {
-            margin-bottom: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
-    </style>    
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        footer { background-color: #333; color: #fff; text-align: center; padding: 10px 0; }
+    </style>
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-2">
         <nav>
-            <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="contact">Contact</a></li>
-                <li><a href="courses">Courses</a></li>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="courses.html">Courses</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="container mt-5">
         <section>
-            <h1>Mastering DevOps: My Learning Journey</h1>
-            <p>This website reflects my journey in learning DevOps, where I share the resources, tools, and platforms that have helped me build strong DevOps skills, based on lessons learned from experienced professionals.</p>
+            <h1>Welcome to Munish Thakur's DevOps Portfolio</h1>
+            <p>This website reflects my learning and growth as a DevOps engineer, highlighting the skills and projects I’ve worked on. Explore to learn more about my experience with cloud infrastructure, containerization, and CI/CD automation.</p>
         </section>
 
         <section>
-            <h2>Overview</h2>
-            <p>From zero to proficient: a deep dive into DevOps tools, cloud platforms like AWS and Azure, and real-world scenarios that accelerate your learning.</p>
-        </section>
-
-        <section>
-            <h2>Steps to Run the DevOps Setup</h2>
-            <p>Here are the concise steps I followed from <a href="https://www.youtube.com/watch?v=HGu9sgoHaJ0&t=3639s" target="_blank">this tutorial</a>:</p>
-            <ol>
-                <li>Set up EC2 instances on AWS with security group configurations.</li>
-                <li>Install Docker on the EC2 instances.</li>
-                <li>Use `docker-compose` to define multi-container applications.</li>
-                <li>Set up a reverse proxy using Nginx to handle traffic.</li>
-                <li>Deploy services using Docker images and containers.</li>
-                <li>Set up CI/CD pipelines using Jenkins to automate builds and deployments.</li>
-                <li>Monitor the deployment using tools like Prometheus and Grafana.</li>
-            </ol>
-        </section>
-
-        <section>
-            <h2>Courses & Resources</h2>
-            <p>Check out the <a href="courses">courses</a> section to explore curated learning paths that helped me in my DevOps career journey.</p>  
+            <h2>Key Projects</h2>
+            <ul>
+                <li><strong>Static Website Hosting on Amazon S3</strong> – Hosted a static website using S3, ACLs, and public access settings.</li>
+                <li><strong>Redis Replica in C++</strong> – Developed a custom Redis-like server using C++ and multi-threading.</li>
+                <li><strong>BankerBot using Amazon Lex</strong> – Built an intelligent chatbot for banking queries.</li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <a href="https://www
+        <p>&copy; 2024 Munish Thakur | <a href="https://github.com/menotthakur" class="text-white">GitHub</a> | <a href="https://www.linkedin.com/in/thakur-munish/" class="text-white">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
