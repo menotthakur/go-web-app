@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Munish Thakur's Portfolio</title>
+    <!-- Correct Bootstrap CSS Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        footer { background-color: #333; color: #fff; text-align: center; padding: 10px 0; }
-    </style>
 </head>
 <body>
     <header class="bg-dark text-white text-center py-2">
@@ -25,7 +22,7 @@
     <main class="container mt-5">
         <section>
             <h1>Welcome to Munish Thakur's DevOps Portfolio</h1>
-            <p>This website reflects my learning and growth as a DevOps engineer, highlighting the skills and projects I’ve worked on. Explore to learn more about my experience with cloud infrastructure, containerization, and CI/CD automation.</p>
+            <p>This website reflects my journey in learning DevOps, where I share the resources, tools, and platforms that have helped me build strong DevOps skills.</p>
         </section>
 
         <section>
@@ -36,10 +33,34 @@
                 <li><strong>BankerBot using Amazon Lex</strong> – Built an intelligent chatbot for banking queries.</li>
             </ul>
         </section>
+
+        <section>
+            <h2>Steps to Run the DevOps Setup</h2>
+            <p>Here are the concise steps I followed from <a href="https://www.youtube.com/watch?v=HGu9sgoHaJ0&t=3639s" target="_blank">this tutorial</a>:</p>
+            <ol>
+                <li>Set up EC2 instances on AWS with security group configurations.</li>
+                <li>Install Docker on the EC2 instances.</li>
+                <li>Use `docker-compose` to define multi-container applications.</li>
+                <li>Set up a reverse proxy using Nginx to handle traffic.</li>
+                <li>Deploy services using Docker images and containers.</li>
+                <li>Set up CI/CD pipelines using Jenkins to automate builds and deployments.</li>
+                <li>Monitor the deployment using tools like Prometheus and Grafana.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Courses & Resources</h2>
+            <p>Check out the <a href="courses.html">courses</a> section to explore curated learning paths that helped me in my DevOps career journey.</p>  
+        </section>
     </main>
 
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Munish Thakur | <a href="https://github.com/menotthakur" class="text-white">GitHub</a> | <a href="https://www.linkedin.com/in/thakur-munish/" class="text-white">LinkedIn</a></p>
     </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
