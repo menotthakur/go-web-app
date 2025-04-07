@@ -1,4 +1,4 @@
-#STEP 1
+
 
 #Containerizing --> Dockerfile
 
